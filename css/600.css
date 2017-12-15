@@ -1,0 +1,11 @@
+@media (max-width: 600px) 
+{
+  .logo {
+    background: url('../image/assets-01.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 40px;
+  }
+}

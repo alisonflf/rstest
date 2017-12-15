@@ -1,3 +1,18 @@
+.navbar {
+    border-bottom: solid 3px #00ff96;
+    color: black;
+}
+
+.bg-white {
+    background: white;
+}
+
 .logo {
-    max-height: 40px;
+    object-fit: scale-down;
+    background: url('../image/assets-02.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    height: 60px;
 }
