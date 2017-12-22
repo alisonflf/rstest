@@ -1,18 +1,137 @@
-.navbar {
-    border-bottom: solid 3px #00ff96;
-    color: black;
+.page_container {
+    margin-top: 50px;
+
+    background: #ffffff77;
+    width: 95%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.bg-white {
-    background: white;
+.hello {
+    display: flex;
+    height: 20vmin;
 }
 
-.logo {
-    object-fit: scale-down;
-    background: url('../image/assets-02.png');
+.hello div{
+    display: flex;
+}
+
+.logo-container {
+    width: 100%;
+    height: 100%;
+}
+
+.hello-img {
+    background: url('../image/assets-02.png') no-repeat center;
     background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 200px;
-    height: 100px;
+    height: 80%;
+    align-self: center;
+    width: 100%;
+}
+
+.hello-img:hover {
+    z-index: 1;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+}
+
+.hello-text {
+    flex-wrap: wrap;
+}
+
+.hello-text h2, p {
+    display: flex;
+}
+
+.hello-text p {
+    font-size: 1.5rem;
+}
+
+.game-list li{
+    height: 50vmin;
+}
+
+.about {
+    height: 10em;
+    background: #292727c9;
+}
+
+.game-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.game-text-content {
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.game-text-content-container {
+    align-self: center;
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.saiba-mais{
+    width: 100%;
+    color: #7dea96;
+    display: block;
+    text-align: right;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.game-text-content-container h3{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Neucha', cursive;
+}
+
+.game-text-content-container p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.game-img-container {
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.game-img {
+    background: url('../image/martialStrike.png') no-repeat center;
+    background-size: contain;
+    height: 90%;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.store-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 5%;
+    height: auto;
+}
+
+.store-buttons a {
+    border: solid 1px black;
 }

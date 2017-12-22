@@ -1,11 +1,28 @@
 @media (max-width: 600px) 
 {
-  .logo {
-    background: url('../image/assets-01.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 40px;
-    height: 40px;
-  }
+    .hello {
+        height: 30vmin;
+    } 
+
+    .page_container {
+        width: 100%;
+    }
+
+    .game-list li {
+        height: 100vmin;
+    }
+
+    .game-container {
+        flex-direction: column-reverse;
+    }
+
+    .game-text-content {
+        width: 100%;
+        height: 70%;
+    }
+
+    .game-img-container {
+        width: 100%;
+        height: 30%;
+    }
 }

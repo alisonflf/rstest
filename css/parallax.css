@@ -28,6 +28,7 @@
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   z-index: 5;
+  height: auto;
 }
 
 .parallax__layer--back {
@@ -35,13 +36,13 @@
   background: url(../image/assets-09.png);
   background-position: center;
   background-position-y: inherit;
-  transform: translateZ(-50px) scale(1.2);
+  transform: translateZ(-300px) scale(2);
   z-index: 4;
 }
 
 .parallax__layer--deep {
-  -webkit-transform: translateZ(-600px) scale(3);
-  transform: translateZ(-600px) scale(3);
+  -webkit-transform: translateZ(-600px) scale(4);
+  transform: translateZ(-600px) scale(4);
   background-image: url(../image/assets-10.png);
   background-position: center;
   z-index: 2;
