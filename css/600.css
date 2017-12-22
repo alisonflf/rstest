@@ -8,4 +8,8 @@
     width: 40px;
     height: 40px;
   }
+
+  .parallax__layer--base {
+    padding-top: 90px;
+  }
 }
