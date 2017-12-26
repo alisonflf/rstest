@@ -28,7 +28,11 @@
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   z-index: 5;
+<<<<<<< HEAD
   height: auto;
+=======
+  padding-top: 150px;
+>>>>>>> 1fe19d7d842779fdbe163c03b6b356ed5ba8732a
 }
 
 .parallax__layer--back {
